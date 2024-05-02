@@ -8,21 +8,22 @@
     grid-gap: 2rem;
     justify-content: center;
     padding: 5rem;
+   
 }
-.pizza-cards > li {
+ .pizza-cards > li {
     list-style-type: none;
     height: 10rem;
     position: relative;
-    background-size: cover;
+    background-size:inherit;
     border-radius: 15px;
-}
+  }
 .pizza-cards > li:hover {
-        list-style-type: none;
-        height: 10rem;
-        position: relative;
-        background-size:inherit;
-      
+    list-style-type: none;
+    height: 10rem;
+    position: relative;
+    background-size:cover;
 }
+
 .Pizza-info {
     color: white;
     font-size: 14px;
