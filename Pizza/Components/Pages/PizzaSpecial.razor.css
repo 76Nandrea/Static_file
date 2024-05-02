@@ -1,0 +1,63 @@
+﻿.main{
+    flex-grow:1;
+    background: linear-gradient( green, white, red);
+}
+.pizza-cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, 20rem);
+    grid-gap: 2rem;
+    justify-content: center;
+    padding: 5rem;
+}
+.pizza-cards > li {
+    list-style-type: none;
+    height: 10rem;
+    position: relative;
+    background-size: cover;
+    border-radius: 15px;
+}
+.pizza-cards > li:hover {
+        list-style-type: none;
+        height: 10rem;
+        position: relative;
+        background-size:inherit;
+      
+}
+.Pizza-info {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: left;
+    text-shadow: 1px 2px 1px darkgreen;
+    padding: 5rem 1rem;
+}
+.Pizza-info .title {
+    color: white;
+    font-size: 1.4rem;
+    display: block;
+    text-shadow: 1px 2px 1px darkgreen;
+    }
+.Pizza-info .price{
+    right: 1rem;
+    bottom:0.5rem;
+    background-color:forestgreen;
+    padding:0.1rem 0.7rem;
+}
+
+.Pizza-info .price::before {
+    content: '€';
+}
+
+h3 {
+    font-size: 50px;
+    font-family:'Monotype Corsiva';
+    text-align: center;
+    text-decoration-color: darkgreen;
+    font-weight: bold;
+    background: linear-gradient( green, white, red);
+    text-shadow: 0 2px 2px white; 
+}
+hr{
+    color: darkgreen;
+}
